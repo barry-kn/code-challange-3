@@ -1,0 +1,81 @@
+ 
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .movie-details {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .poster {
+    width: 300px;
+    height: 450px;
+    margin-right: 50px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tickets {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0062cc;
+  }
+  
+
+  
+  
+  .films {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+  }
+
+  .film {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .film img {
+    max-width: 100%;
+    height: auto;
+  }
